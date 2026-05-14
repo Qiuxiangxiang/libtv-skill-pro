@@ -19,7 +19,7 @@ metadata:
 
 # libtv-skill-pro
 
-> Fork of [@haofanwang/libtv-skill](https://clawhub.ai/haofanwang/libtv-skill) — 在原版基础上扩展高级工作流与功能矩阵层。Source / Issues: 见包内 README.md。
+> Fork of [@haofanwang/libtv-skill](https://clawhub.ai/haofanwang/libtv-skill) — 在原版基础上扩展高级工作流与功能矩阵层。Source / Issues: https://github.com/Qiuxiangxiang/libtv-skills-pro
 
 LibTV (liblib.tv) 是 LiblibAI 推出的 AI 视频创作平台。本 skill 让 Agent 通过统一入口 `libtv.py` 完成生成 / 编辑 / 修饰 / 模型路由的全链路。
 

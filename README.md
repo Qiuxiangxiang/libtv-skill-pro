@@ -3,6 +3,8 @@
 > 🎬 LibTV (liblib.tv) AI 视频/图像生成平台的 OpenClaw / ClawHub skill。Pro 版在 [@haofanwang/libtv-skill](https://clawhub.ai/haofanwang/libtv-skill) 基础上扩展高级工作流与功能矩阵层。
 
 [![ClawHub](https://img.shields.io/badge/ClawHub-libtv--skill--pro-orange)](https://clawhub.ai/qiuxiangxiang/libtv-skill-pro)
+[![GitHub stars](https://img.shields.io/github/stars/Qiuxiangxiang/libtv-skills-pro?style=social)](https://github.com/Qiuxiangxiang/libtv-skills-pro)
+[![GitHub issues](https://img.shields.io/github/issues/Qiuxiangxiang/libtv-skills-pro)](https://github.com/Qiuxiangxiang/libtv-skills-pro/issues)
 [![License](https://img.shields.io/badge/license-MIT--0-blue)](LICENSE)
 
 ## 是什么
@@ -27,7 +29,7 @@ openclaw skills install libtv-skill-pro
 ### 方式 2：从这个仓库克隆
 
 ```bash
-git clone https://github.com/YOUR_HANDLE/libtv-skill-pro.git ~/.agents/skills/libtv-skill-pro
+git clone https://github.com/Qiuxiangxiang/libtv-skills-pro.git ~/.agents/skills/libtv-skill-pro
 ```
 
 ## 快速开始

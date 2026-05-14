@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.4.3] - 2026-05-14
+
+**主题：GitHub repo 上线 + 0.4.1/0.4.2 试错版本说明**
+
+### Added
+- GitHub 公开仓库：[https://github.com/Qiuxiangxiang/libtv-skills-pro](https://github.com/Qiuxiangxiang/libtv-skills-pro)
+- README.md 顶部加 GitHub stars / issues badges
+- SKILL.md fork-of 段加 Source / Issues 链接
+- ClawHub marketplace homepage 指向 GitHub
+
+### Notes（透明记录）
+- **0.4.1**：尝试在 CLI publish 时发送 `icon: {kind: "lucide", name: "film"}` 字段，服务端 schema 直接丢弃。**无功能变更**。
+- **0.4.2**：再试 `icon: "lucide:film"` 字符串，同样被丢弃。**无功能变更**。
+- 结论：ClawHub CLI publish endpoint 不支持设 icon；只有 web publish 表单支持。
+- 用户若想看 film 图标，需要 owner 在 `https://clawhub.ai/skills/publish?updateSlug=libtv-skill-pro` 网页表单手动设置一次。
+
+---
+
 ## [0.4.0] - 2026-05-14（即将发布）
 
 **主题：公开推广就绪 + 架构升级**
