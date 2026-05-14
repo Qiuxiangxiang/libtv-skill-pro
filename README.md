@@ -1,6 +1,6 @@
 # libtv-skill-pro
 
-> 🎬 LibTV (liblib.tv) AI 视频/图像生成平台的 OpenClaw / ClawHub skill。Pro 版在 [@haofanwang/libtv-skill](https://clawhub.ai/haofanwang/libtv-skill) 基础上扩展高级工作流与功能矩阵层。
+> 🎬 LibTV (liblib.tv) AI 视频/图像生成平台的 Agent skill。通过 [ClawHub](https://clawhub.ai) 分发，可被 OpenClaw / Claude Code / Cursor 等 Agent 运行时加载。Pro 版在 [@haofanwang/libtv-skill](https://clawhub.ai/haofanwang/libtv-skill) 基础上扩展高级工作流与功能矩阵层。
 
 [![ClawHub](https://img.shields.io/badge/ClawHub-libtv--skill--pro-orange)](https://clawhub.ai/qiuxiangxiang/libtv-skill-pro)
 [![GitHub stars](https://img.shields.io/github/stars/Qiuxiangxiang/libtv-skill-pro?style=social)](https://github.com/Qiuxiangxiang/libtv-skill-pro)
@@ -9,7 +9,7 @@
 
 ## 是什么
 
-让 Agent（OpenClaw / Claude Code / 其他 ClawHub-compatible 客户端）通过统一入口调用 LibTV 平台的 AI 创作能力：
+让 Agent 运行时（OpenClaw / Claude Code / Cursor / 任何能加载 SKILL.md 或 plugin.json 的客户端）通过统一入口调用 LibTV 平台的 AI 创作能力：
 
 - **生成**：文生图/视频、图生图/视频、首尾帧视频、音频驱动视频
 - **编辑**：局部修改（"把纸船换成爱心"）、风格迁移、运镜调整
@@ -20,17 +20,28 @@
 
 ## 安装
 
-### 方式 1：通过 ClawHub（推荐）
+### 方式 1：ClawHub CLI（推荐）
 
 ```bash
-openclaw skills install libtv-skill-pro
+clawhub install libtv-skill-pro
+# 安装后可用 openclaw skills info libtv-skill-pro 查看 skill 详情
 ```
 
-### 方式 2：从这个仓库克隆
+skill 安装到 `~/.openclaw/workspace/skills/libtv-skill-pro/`，OpenClaw 自动识别。
+
+### 方式 2：从 GitHub 克隆（开发者）
 
 ```bash
 git clone https://github.com/Qiuxiangxiang/libtv-skill-pro.git ~/.agents/skills/libtv-skill-pro
 ```
+
+含完整开发文件：`tests/` / `CHANGELOG.md` / `INTEGRATIONS.md` / `cursor/` / `tools/` 等（ClawHub 分发版不包含这些）。
+
+### 方式 3：Claude Code / Cursor 用户
+
+详见 [`INTEGRATIONS.md`](./INTEGRATIONS.md)：
+- **Claude Code**：通过本地 marketplace + plugin install 注册
+- **Cursor**：项目级 `.cursor/rules/` 或全局 User Rules
 
 ## 快速开始
 
