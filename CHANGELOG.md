@@ -1,11 +1,24 @@
 # Changelog
 
+## [0.4.4] - 2026-05-14
+
+**Renamed GitHub repo: libtv-skills-pro → libtv-skill-pro**
+
+跟 ClawHub slug 保持一致，避免跨平台搜索割裂。GitHub 自带 redirect，旧 URL 仍可访问。
+
+### Updated
+- 文档里所有 `github.com/Qiuxiangxiang/libtv-skills-pro` → `github.com/Qiuxiangxiang/libtv-skill-pro`
+- README.md 顶部 GitHub badges 链接更新
+- Claude Code plugin/marketplace homepage 更新
+
+---
+
 ## [0.4.3] - 2026-05-14
 
 **主题：GitHub repo 上线 + 0.4.1/0.4.2 试错版本说明**
 
 ### Added
-- GitHub 公开仓库：[https://github.com/Qiuxiangxiang/libtv-skills-pro](https://github.com/Qiuxiangxiang/libtv-skills-pro)
+- GitHub 公开仓库：[https://github.com/Qiuxiangxiang/libtv-skill-pro](https://github.com/Qiuxiangxiang/libtv-skill-pro)
 - README.md 顶部加 GitHub stars / issues badges
 - SKILL.md fork-of 段加 Source / Issues 链接
 - ClawHub marketplace homepage 指向 GitHub
