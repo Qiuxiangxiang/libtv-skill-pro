@@ -16,7 +16,9 @@ libtv-skill-pro 同时支持以下客户端，**主版本 `~/.agents/skills/libt
 ## 1. OpenClaw / ClawHub
 
 ```bash
-openclaw skills install libtv-skill-pro
+clawhub install libtv-skill-pro
+# 安装到 ~/.openclaw/workspace/skills/libtv-skill-pro/，OpenClaw 自动识别
+# 安装后可用 openclaw skills info libtv-skill-pro 查看详情
 ```
 
 之后 OpenClaw agent 可通过 `/libtv-skill-pro` 触发。详见 [SKILL.md](./SKILL.md)。
